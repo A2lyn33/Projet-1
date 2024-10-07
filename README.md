@@ -3,8 +3,11 @@
 # Présentation du projet 
 
 Mettre en place un serveur de gestion de contenus multimédia
+
 Le logiciel Plex doit être utilisé
+
 Serveur : Debian 12
+
 Client : tous les OS sont utilisables
 
 | Semaine 1 | Equipes | Fonction |
@@ -14,7 +17,12 @@ Client : tous les OS sont utilisables
 |           | Adeline |             |
 |           | Julien |              |
 
-
+| Semaine 2 | Equipes | Fonction |
+|:-:|:-:|:-:|
+|           |   | Scrum master |
+|           |  | Product Owner | 
+|           |  |             |
+|           |  |              |
 
 
 
