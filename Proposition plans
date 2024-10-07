@@ -1,0 +1,43 @@
+# Projet 1 
+
+- Lister les différentes pistes:
+- #### Liens URL :
+ https://www.it-connect.fr/le-protocole-nfs-pour-les-debutants/
+https://doc.ubuntu-fr.org/tutoriel/installer_configurer_serveur_polyvalent_mediacenter
+https://www.linuxtricks.fr/wiki/debian-installer-un-serveur-nfs
+
+Ces différents liens traites de la création d'un serveur multimédiat sous linux.
+Avec utilistation d'un protocole [NFS](https://fr.wikipedia.org/wiki/Network_File_System)  
+
+1 Paramétrer le serveur Débian
+* installer Serveur débian
+  * Nom/Mdp/IP
+* protocole NFS ?
+  * Instalation/ partage 
+* port à utiliser ?
+* Connection NFS/Linux.
+
+2 Lien\intégration Plex:
+* creuser utilisation/fontionnement Plex "[guide utilisation Plex](https://www.youtube.com/watch?v=6z9vxd4mSHY)"
+
+
+3 création d'une bibliothéque
+* Comment faire?
+* interface graphique?
+
+
+
+4 configurer les Cliens
+* installer clients
+* configurer cliens
+  * Nom/Mdp/IP  
+ 
+5 test 
+* connection
+* fonctionement cliens-serveur-Flex
+
+
+6 Configurations avancés des bibliothéques et métadonnées
+
+
+ 
