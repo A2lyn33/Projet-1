@@ -2,8 +2,10 @@
 
 # Présentation du projet 
 
- Mettre en place un serveur de gestion de contenus multimédia
- Le logiciel Plex doit être utilisé
+Le but de ce projet est de mettre en place un serveur de contenus multimédia 
+
+
+Le logiciel Plex doit être utilisé
 
 Serveur : Debian 12
 
@@ -30,6 +32,7 @@ Client : tous les OS sont utilisables
 |           |  |              |
 
 # Choix technique 
+
 
 # Difficultés rencontrés 
 
