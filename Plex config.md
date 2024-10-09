@@ -42,3 +42,5 @@
 ##### 8 Vitesse téléchargement
 ##### 9 Définir débit distant
 
+## [credit instalation config ](https://www.it-connect.fr/installer-un-serveur-multimedia-plex-sous-debian-ou-ubuntu/)
+## [credit remote](https://trash-guides.info/Plex/Tips/Plex-media-server/#remote-access)
