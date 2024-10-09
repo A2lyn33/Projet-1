@@ -18,66 +18,103 @@ Sommaire
  ### -1  Installation de Debian 12
   
   - Mettre à jour votre serveur avec votre utilisateur:
-
   - Sélectionnez Graphical install:
-
   - Sélectionner votre langue d'installation, dans mon cas le français:
-
   - Sélectionnez les paramètres régionaux, dans mon cas la Belgique:
-
-  - On configure son clavier, 
-    
+  - On configure son clavier,  
   - On donne un nom au serveur, peu importe:
-
   - Laissez vide ou mettez localdomain, par exemple et continuez:
-
   - Choisissez un mot de passe fort pour le compte root, celui qui a tout les privilèges:
-
   - On va créer un compte utilisateur, différent du compte root précédemment créé, ce n'est pas votre login mais le nom 
      complet de l'utilisateur:
-
   - Maintenant on crée le login:
-
   - On crée un mot de passe fort pour notre utilisateur:
-
   - On choisi le mode de partitionnement, Assisté - utiliser un disque entier:
- 
   - On sélectionne le disque ou sera installé Debian 12 serveur:
-
   - On va choisir l'option Tout dans une seule partition:
-
   - Sélectionnez Terminer le partitionnement et appliquer les changements:
-
   - On valide par Oui:
-
   - L'installation du système de base commence:
-
   - Choisir Non:
-
   - Choisir un miroir correspondant généralement au pays ou l'on se trouve:
-
   - Ici vous pouvez choisir deb.debian.org:
-
   - On laisse vide et on continue:
-
   - Si vous souhaitez participer à l'étude statistique sur l'utilisation des paquets, répondez non
-
   - Il ne faut pas d'environnement de bureau vu que l'on veut installer Debian 12 comme serveur, cochez et décochez
      suivant l'exemple. Nous avons besoin du SSH et on peut cocher les utilitaires usuels du système:
-
   - On choisi d'installer GRUB sur le disque principal:
-
   - On sélectionne le disque:
-
   - L'installation est terminée
-
   - Le serveur démarre:
 
+ ### 2 -Configuration IP fixe 
+
+  - Lancer le terminal
+    
+  - installer les outils réseau
+```
+sudo apt install net-tools
+```
+Cela mettra à jour votre liste de paquets et installera net-tools , Ifconfig , Netstat
+
+  - installer Vim
+```
+sudo apt install vim
+```
+ - Taper Ifconfig
+```   
+ifconfig
+```
+ - Taper Ip addr show
+```
+ip addr show
+```
+ - Taper ifup enps08
+```
+ip if enps08
+```
+Le terminal peut vous demander d'isntaller la commande avec
+```
+sudo apt install ifupdown-ng
+```
+ou
+```
+sudo apt install netscript-2.4
+```
+ou      
+```
+sudo apt install ifupdown
+```
+  - Taper ip link set enp0s8 
+  - Taper ip addr show
+  - Taper ifconfig
+  - Taper vim /etc/network/interfaces
+  - Rajouter les lignes
+```
+allow-hotplug enp0s8
+iface enp0s8 inet static
+address 172.16.10.10
+netmask 255.255.255.0
 
 
 
-Installer sudo
-Une fois connecté nous allons commencer par installer sudo, mais comme vous pouvez le constater, notre utilisateur normal n'a pas les droits nécessaires:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 apt install sudo
 
@@ -112,7 +149,7 @@ Lancez cette commande pour mettre à jour votre serveur. Il va vous demander vot
 --- 
 ---
 
-### -2 Installation et configuration des clients NFS
+### -3 Installation et configuration des clients NFS
 
 ### Installation du client NFS
 
@@ -262,7 +299,7 @@ ip a
 ---
 ---
 
- ### -3 Installation Plex
+ ### -4 Installation Plex
 
  # **Installer Plex sur débian et configuration**
 
