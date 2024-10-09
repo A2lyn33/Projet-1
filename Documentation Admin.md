@@ -1,4 +1,22 @@
-## Installation
+## Document administrateur 
+
+## Prérequis technique
+
+ -VirtualBox
+ 
+ -ISO Debian server 12
+
+
+## Installation et configuration 
+
+ -1 Installation de Debian 12 
+  - 
+
+
+## FAQ : Solutions aux problèmes connus et communs liés à l'installation et à la configuration 
+
+
+
   - Documentation admin
     - Prérequis techniques
     - Étapes d'installation et de configuration : instructions étape par étape
