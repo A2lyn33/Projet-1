@@ -13,6 +13,18 @@
   - 
 
 
+
+ -2 Configuration Protocole NFS
+
+
+ -3 Installation Plex
+
+ -4 Installation client
+
+ -5 Configuration bibliothéque et methadonnées
+
+ 
+
 ## FAQ : Solutions aux problèmes connus et communs liés à l'installation et à la configuration 
 
 
