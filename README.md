@@ -1,4 +1,4 @@
-# -TSSR-2409-P1-G4-Serveur-de-contenus-multimedia-
+# TSSR-2409-P1-G4-Serveur-de-contenus-multimedia
 
 # Présentation du projet 
 
@@ -17,15 +17,15 @@ Ce projet a pour but de mettre en place cette plateforme.
 |:-:|:-:|:-:|
 |           | Martin  | Scrum master |
 |           | Bruno | Product Owner | 
-|           | Adeline |             |
-|           | Julien |              |
+|           | Adeline |   Technicien          |
+|           | Julien |   Technicien           |
 
 | Semaine 2 | Equipes | Fonction |
 |:-:|:-:|:-:|
 |           |   | Scrum master |
 |           |  | Product Owner | 
-|           |  |             |
-|           |  |              |
+|           |  |  Technicien           |
+|           |  |   Technicien           |
 
 # Choix technique 
 
