@@ -30,6 +30,7 @@ Ce projet a pour but de mettre en place cette plateforme.
 # Choix technique 
 
  *Serveur Debian 12
+ 
  *logiciel plexserver 
  
 
