@@ -2,18 +2,14 @@
 
 # Présentation du projet 
 
-Le but de ce projet est de mettre en place un serveur de contenus multimédia 
-
-
-Le logiciel Plex doit être utilisé
-
-Serveur : Debian 12
-
-Client : tous les OS sont utilisables
+Le but de ce projet est de mettre en place un serveur de gestion de contenus multimédia . L'objectif principal est créer une plateforme centralisée pour stocker , organoser et diffuser divers types de médias numériques . Cette plateforme doit être utilsable à distance par différents OS.
 
 # Objectif finaux 
 
 # Introduction 
+
+De part l'augmentation des contenus multimédia , il devient nécessaire de pouvoir centraliser nos médias numérique pour pouvoir mieux les gérer .
+Ce projet a pour but de mettre en place cette plateforme.
 
 # Membres de l'équipe
 
@@ -33,8 +29,12 @@ Client : tous les OS sont utilisables
 
 # Choix technique 
 
+ *Serveur Debian 12.
+ *logiciel plexserver 
+ *
 
 # Difficultés rencontrés 
+ *
 
 # Solutions trouvées 
 
