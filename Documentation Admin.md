@@ -2,7 +2,7 @@
 
 Sommaire
 
- - [1  Installation de Debian 12](#Installation-de-Debian-12)
+ - [1 Debian 12](#Installation-de-Debian-12)
  - [2 Installation et configuration des clients NFS](#Installation-et-configuration-des-clients-NFS)
 
 ## Prérequis technique
