@@ -3,7 +3,7 @@
 Sommaire
 
  - [1 Debian 12](#Installation-de-Debian-12)
- - [2 Installation-et-configuration-des-clients-NFS](Installation-et-configuration-des-clients-NFS)
+ - [2 Installation-et-configuration-des-clients-NFS]{Installation-et-configuration-des-clients-NFS}
 
 ## Prérequis technique
 
