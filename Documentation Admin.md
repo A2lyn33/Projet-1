@@ -17,12 +17,11 @@ Sommaire
 
  ### -1  Installation de Debian 12
   
-  - Mettre à jour votre serveur avec votre utilisateur:
   - Sélectionnez Graphical install:
-  - Sélectionner votre langue d'installation, dans mon cas le français:
-  - Sélectionnez les paramètres régionaux, dans mon cas la Belgique:
+  - Sélectionner votre langue d'installation,
+  - Sélectionnez les paramètres régionaux,
   - On configure son clavier,  
-  - On donne un nom au serveur, peu importe:
+  - On donne un nom au serveur,
   - Laissez vide ou mettez localdomain, par exemple et continuez:
   - Choisissez un mot de passe fort pour le compte root, celui qui a tout les privilèges:
   - On va créer un compte utilisateur, différent du compte root précédemment créé, ce n'est pas votre login mais le nom 
@@ -37,7 +36,7 @@ Sommaire
   - L'installation du système de base commence:
   - Choisir Non:
   - Choisir un miroir correspondant généralement au pays ou l'on se trouve:
-  - Ici vous pouvez choisir deb.debian.org:
+Ici vous pouvez choisir deb.debian.org:
   - On laisse vide et on continue:
   - Si vous souhaitez participer à l'étude statistique sur l'utilisation des paquets, répondez non
   - Il ne faut pas d'environnement de bureau vu que l'on veut installer Debian 12 comme serveur, cochez et décochez
@@ -52,8 +51,7 @@ Sommaire
 
  ### 2 -Configuration IP fixe 
 
-  - Lancer le terminal
-    
+  - Lancer le terminal  
   - installer les outils réseau
 ```
 sudo apt install net-tools
