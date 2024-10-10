@@ -47,6 +47,9 @@ Sommaire
   - L'installation est terminée
   - Le serveur démarre:
 
+ apt install
+
+
  ### 2 -Configuration IP fixe 
 
   - Lancer le terminal
