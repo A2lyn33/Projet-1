@@ -46,8 +46,6 @@ Ici vous pouvez choisir deb.debian.org:
   - L'installation est terminée
   - Le serveur démarre:
 
- apt install
-
 
  ### 2 -Configuration IP fixe 
 
@@ -58,10 +56,6 @@ sudo apt install net-tools
 ```
 Cela mettra à jour votre liste de paquets et installera net-tools , Ifconfig , Netstat
 
-  - installer Vim
-```
-sudo apt install vim
-```
  - Taper Ifconfig
 ```   
 ifconfig
@@ -70,33 +64,22 @@ ifconfig
 ```
 ip addr show
 ```
- - Taper ifup enps08
+ - Taper ifup enp0s8
 ```
-ip if enps08
+ifup enps08
 ```
-Le terminal peut vous demander d'isntaller la commande avec
-```
-sudo apt install ifupdown-ng
-```
-ou
-```
-sudo apt install netscript-2.4
-```
-ou      
-```
-sudo apt install ifupdown
-```
-  - Taper ip link set enp0s8 
+  - Taper ip link set enp0s8 up
   - Taper ip addr show
   - Taper ifconfig
-  - Taper vim /etc/network/interfaces
+  - nano /etc/network/interfaces
   - Rajouter les lignes
 ```
 allow-hotplug enp0s8
 iface enp0s8 inet static
 address 172.16.10.10
 netmask 255.255.255.0
-
+```
+   - systemctl restart networking
 
 
 
