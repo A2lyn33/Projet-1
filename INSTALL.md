@@ -5,16 +5,20 @@ Sommaire
   -1 Prérequis technique
   
   -2 Serveur Debian  
-     -1 Installation debian 12
-     -2 Configuration IP fixe   
-     -3 Installation NFS
-     -4 Installation Plex 
+  
+     - Installation debian 12
+     
+     - Configuration IP fixe   
+     
+     - Installation NFS
+     
+     - Installation Plex 
 
   -3 Installation de Ubuntu
-     -1 Configuration IP fixe 
+     - Configuration IP fixe 
      
   -4 Installation de Windows 10
-     -1 Configuration IP fixe 
+     - Configuration IP fixe 
      
  -5 Configuration avancée des bibliothèques et métadonnées
  
