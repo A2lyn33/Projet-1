@@ -65,6 +65,7 @@ Ici vous pouvez choisir deb.debian.org:
  ### 2 -Configuration IP fixe 
 
   - Lancer le terminal
+  - se connecter avec login : root et password : Azerty1* (ici pour le projet)
   - lancer les mises a jours avec : apt update
   - installer les outils réseau
 ```
