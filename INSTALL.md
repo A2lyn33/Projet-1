@@ -65,7 +65,7 @@ Ici vous pouvez choisir deb.debian.org:
  ### 2 -Configuration IP fixe 
 
   - Lancer le terminal
-  - lancer les mises a jours avec : apt upadate
+  - lancer les mises a jours avec : apt update
   - installer les outils réseau
 ```
 sudo apt install net-tools
