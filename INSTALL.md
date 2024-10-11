@@ -6,11 +6,8 @@ Sommaire
   
   -2 Serveur Debian  
     - Installation debian 12
-    
     - Configuration IP fixe  
-    
     - Installation NFS
-    
     - Installation Plex 
 
   -3 Installation de Ubuntu
