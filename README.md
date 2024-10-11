@@ -26,15 +26,15 @@ Ce projet a pour but de mettre en place cette plateforme.
 |:-:|:-:|:-:|
 |           | Martin  | Scrum master |
 |           | Bruno | Product Owner | 
-|           | Adeline |   Technicien          |
-|           | Julien |   Technicien           |
+|           | Adeline |   Dev          |
+|           | Julien |   Dev           |
 
 | Semaine 2 | Equipes | Fonction |
 |:-:|:-:|:-:|
 |           |   | Scrum master |
 |           |  | Product Owner | 
-|           |  |  Technicien           |
-|           |  |   Technicien           |
+|           |  |  Dev           |
+|           |  |   Dev           |
 
 # Choix technique 
 
