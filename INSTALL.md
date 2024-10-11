@@ -55,8 +55,7 @@ Sommaire
 Ici vous pouvez choisir deb.debian.org:
   - On laisse vide et on continue:
   - Si vous souhaitez participer à l'étude statistique sur l'utilisation des paquets, répondez non
-  - Il ne faut pas d'environnement de bureau vu que l'on veut installer Debian 12 comme serveur, cochez et décochez
-     suivant l'exemple. Nous avons besoin du SSH et on peut cocher les utilitaires usuels du système:
+  - Il ne faut pas d'environnement de bureau vu que l'on veut installer Debian 12 comme serveur, décochez tout sauf serveur ssh et utilitaires usuels du système qui devront rester cocher car nous en avons besoin pour notre serveur.
   - On choisi d'installer GRUB sur le disque principal:
   - On sélectionne le disque:
   - L'installation est terminée
