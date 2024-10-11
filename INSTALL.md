@@ -2,9 +2,23 @@
 
 Sommaire
 
- - [1 Debian 12](#Installation-de-Debian-12)
- - [2 clients NFS](#Installation-et-configuration-des-clients-NFS)
- - [3 Plex]
+ # -1 Prérequis technique
+ 
+ # -2 Serveur Debian  
+     -1 Installation debian 12
+     -2 Configuration IP fixe   
+     -3 Installation NFS
+     -4 Installation Plex 
+
+ # -3 Installation de Ubuntu
+     -1 Configuration IP fixe 
+     
+ # -4 Installation de Windows 10
+     -1 Configuration IP fixe 
+     
+ # -5 Configuration avancée des bibliothèques et métadonnées
+     
+   
 
 ## Prérequis technique
 
