@@ -1,6 +1,6 @@
 ## -Explication des choix techniques :
 
-### **Utilisation d'un protocole NFS,** 
+### **Utilisation d'un protocole NFS,** pour les cliens linux et Mac
 
 **1** Principalement utilisé sous systéme UNIX, mais des versions existe pour les autres OS, Mac et Pc.
 
@@ -28,6 +28,14 @@
 
     * NFSv4 peut être utilisé sous Unix et sous MS-Windows. Il est disponible sur Mac depuis Mac OS X 	Lion (10.7)5.
 -Support de plusieurs protocoles de transports (TCP, 
+
+### **Utilisation du protocole SMB:
+ pour les clients Windows/ et Samba pour le serveur Débian.
+
+
+
+
+
 
 ### **Gestion Bibliothéques et méthadonnés**:
 
