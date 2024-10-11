@@ -1,5 +1,14 @@
 # TSSR-2409-P1-G4-Serveur-de-contenus-multimedia
 
+# Sommaire  
+  * Présentation du projet
+  * Objectif finaux
+  * Membres de l'équipe
+  * Choix technique
+  * Difficultés rencontrées
+  * Solutions trouvées
+  * Axes d'améliorations
+
 # Présentation du projet 
 
 Le but de ce projet est de mettre en place un serveur de gestion de contenus multimédia . L'objectif principal est créer une plateforme centralisée pour stocker , organoser et diffuser divers types de médias numériques . Cette plateforme doit être utilsable à distance par différents OS.
