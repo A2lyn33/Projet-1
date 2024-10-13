@@ -97,9 +97,3 @@ sudo apt update && sudo apt upgrade
 ```
 **Configurer des sauvegardes :**
 Mentionnez brièvement que les configurations et les métadonnées peuvent être sauvegardées, soit manuellement en copiant les dossiers de Plex, soit en configurant des scripts de sauvegarde automatiques.
-
-**Conclusion de la démo :**
-
-Récapitulatif : Résumez les étapes importantes que vous avez montrées, comme l'installation, la configuration des bibliothèques, et la gestion du serveur Plex.
-Q&A : Ouvrez la session pour répondre aux questions. Soyez prêt à revisiter des parties spécifiques ou à montrer d'autres fonctionnalités sur demande.
-Démo bonus (si le temps le permet) : Montrez comment un appareil mobile peut aussi accéder au serveur Plex, en installant l'application Plex sur un smartphone et en le connectant au même réseau.
