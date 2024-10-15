@@ -34,6 +34,8 @@ Sommaire
  ### -1  Installation de Debian 12
   
   - Sélectionnez Graphical install:
+     ![image](https://github.com/user-attachments/assets/42e70092-8c5c-4e47-bf46-dcffe1316542){width = 50 ; height = 50}
+
   - Sélectionner votre langue d'installation,
   - Sélectionnez les paramètres régionaux,
   - On configure son clavier,  
@@ -315,4 +317,4 @@ ip a
     - Prérequis techniques
     - Étapes d'installation et de configuration : instructions étape par étape
     - FAQ : solutions aux problèmes connus et communs liés à l’installation et à la configuration
-![image](https://github.com/user-attachments/assets/9ea4d2d2-985b-4285-9300-e1e65bd879bf)
+
