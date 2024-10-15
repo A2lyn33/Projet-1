@@ -34,12 +34,20 @@ Sommaire
  ### -1  Installation de Debian 12
   
   - Sélectionnez Graphical install:
-     ![image](https://github.com/user-attachments/assets/42e70092-8c5c-4e47-bf46-dcffe1316542){width = 50 ; height = 50}
+     ![image](https://github.com/user-attachments/assets/42e70092-8c5c-4e47-bf46-dcffe1316542)
 
   - Sélectionner votre langue d'installation,
+     ![image](https://github.com/user-attachments/assets/f6d1f54a-18e9-485e-b416-7fe373e221bc)
+
   - Sélectionnez les paramètres régionaux,
-  - On configure son clavier,  
+    ![image](https://github.com/user-attachments/assets/736cfe03-0103-4093-83d0-c0d8434fa2f9)
+
+  - On configure son clavier,
+     ![image](https://github.com/user-attachments/assets/646ea0ec-6665-4603-93b4-ec15910d151c)
+
   - On donne un nom au serveur,
+     ![image](https://github.com/user-attachments/assets/28d028a6-facd-4265-821c-f3bb27e0a984)
+
   - Laissez vide ou mettez localdomain, par exemple et continuez:
   - Choisissez un mot de passe fort pour le compte root, celui qui a tout les privilèges:
   - On va créer un compte utilisateur, différent du compte root précédemment créé, ce n'est pas votre login mais le nom 
