@@ -315,3 +315,4 @@ ip a
     - Prérequis techniques
     - Étapes d'installation et de configuration : instructions étape par étape
     - FAQ : solutions aux problèmes connus et communs liés à l’installation et à la configuration
+![image](https://github.com/user-attachments/assets/9ea4d2d2-985b-4285-9300-e1e65bd879bf)
