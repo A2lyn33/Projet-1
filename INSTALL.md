@@ -195,4 +195,32 @@ sudo apt-get install nfs-kernel-server
 ````
         ls /media/partagenfs
 `````
-
+### Instaltion de [PMS](https://fr.wikipedia.org/wiki/Plex_(logiciel)) sur le serveur :
+ 
+* ##### créer et se déplacer la le dossier Plex
+```
+        mkdir Plex
+        cd Plex
+````        
+* ##### Télécharger Plex Media Serveur
+ ````  
+         wget https://downloads.plex.tv/plex-media-server-new/1.41.0.8994-f2c27da23/debian/plexmediaserver_1.41.0.8994-f2c27da23_amd64.deb
+````
+* ##### installer Plex:
+````
+            dpkg -i plexmediaserver_1.23.4.4805-186bae04e_amd64.deb
+````
+* ##### Se rendre sur un navigateur et taper l'URL:
+        http://adresseipduserveur:32400/web
+        ici : http://172.16.10.10/24:32400/web
+* ##### Donner un nom à son serveur
+* ##### Suivant ajouter un bibiothéque
+* ##### Revenir sur le serveur, pour création de la bibliotéque partagée:
+````        
+        cd/
+        mkdir Films
+````
+* ##### Ouvrir les droits au partage NFS:
+````
+        chmod 777 /srv/partagenfs
+````
