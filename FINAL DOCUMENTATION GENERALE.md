@@ -1,5 +1,12 @@
-## **Documentation Générale:**
+# **Documentation Générale:**
 
+* # **SOMMAIRE:**
+  * ##### [résentation du projet et objectifs finaux](
+  * ##### [Introduction](
+  * ##### [Choix techniques](
+  * ##### [Difficultées rencontrées](
+  * ##### [Solutions trouvées](
+  * ##### [Amélioration possible](
 * ### **Présentation du projet et objectifs finaux :**
 
   * ##### Ce **projet** à pour but la mise en place d'un **serveur** (_débian12_) mutimédia, avec l'utiilsation de **PMS** comme interface graphique ainsi que de la gestion des option. Ce serveur doit être **utilisable par tous les OS**.
