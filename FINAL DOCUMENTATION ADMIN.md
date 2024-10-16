@@ -56,6 +56,8 @@
 * ![image](https://github.com/user-attachments/assets/fc043a54-5328-448a-92db-40ee1298303b)
 
 * ##### Choisir un miroir correspondant généralement au pays ou l'on se trouve.
+![image](https://github.com/user-attachments/assets/df64d7ed-82b5-46e9-99e1-acf4c5842fb5)
+
 * ##### Ici vous pouvez choisir deb.debian.org:
 ![image](https://github.com/user-attachments/assets/e2ede3ce-1820-4c25-b14c-74dd373c15ff)
 
