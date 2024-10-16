@@ -52,7 +52,7 @@
 ![image](https://github.com/user-attachments/assets/25bc4f95-8b45-4ca6-8590-6a07c2b646b4)
 
 * ##### Choisir Non : 
-* ![image](https://github.com/user-attachments/assets/fc043a54-5328-448a-92db-40ee1298303b)
+  ![image](https://github.com/user-attachments/assets/fc043a54-5328-448a-92db-40ee1298303b)
 
 * ##### Choisir un miroir correspondant généralement au pays ou l'on se trouve.
 ![image](https://github.com/user-attachments/assets/df64d7ed-82b5-46e9-99e1-acf4c5842fb5)
@@ -65,6 +65,8 @@
 
 
 *  ##### A vous de choisir.
+   ![image](https://github.com/user-attachments/assets/70daf593-8bcb-4e03-ae2f-d68c16b76f84)
+
 *  ##### Il ne faut pas d'environnement de bureau vu que l'on veut installer Debian 12 comme serveur, cochez et décochez suivant l'exemple. Nous avons besoin du SSH et on peut cocher les utilitaires usuels du système:
   ![image](https://github.com/user-attachments/assets/7770ecc9-adcf-4744-a0e8-860a641efad8)
 
