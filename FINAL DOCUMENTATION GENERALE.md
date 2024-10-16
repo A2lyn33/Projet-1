@@ -1,12 +1,12 @@
 # **Documentation Générale:**
 
 * # **SOMMAIRE:**
-  * ##### résentation du projet et objectifs finaux:
-  * ##### [Introduction]
-  * ##### [Choix techniques]
-  * ##### [Difficultées rencontrées]
-  * ##### [Solutions trouvées]
-  * ##### [Amélioration possible](
+  * ##### [résentation du projet et objectifs finaux](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#pr%C3%A9sentation-du-projet-et-objectifs-finaux-)
+  * ##### [Introduction](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#introduction-)
+  * ##### [Choix techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#choix-techniques-)
+  * ##### [Difficultées rencontrées](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#difficult%C3%A9es-rencontr%C3%A9es-1)
+  * ##### [Solutions trouvées](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#solutions-trouv%C3%A9es-)
+  * ##### [Amélioration possible](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#am%C3%A9lioration-possible-)
 * ### **Présentation du projet et objectifs finaux :**
 
   * ##### Ce **projet** à pour but la mise en place d'un **serveur** (_débian12_) mutimédia, avec l'utiilsation de **PMS** comme interface graphique ainsi que de la gestion des option. Ce serveur doit être **utilisable par tous les OS**.
