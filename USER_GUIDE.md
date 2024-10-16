@@ -15,6 +15,8 @@ Plex est un logiciel client-serveur de gestion multimédia qui permet d'accéder
 ## 2 Connection à plex 
 
  Pour se connecter à Plex , il suffit de lancer une page dans un navigateur web 
+  - Soit en utilsant son compte utilisateur
+  - Soit en créant un compte et un mot de passe 
 
 ![Capture d'écran 2024-10-16 123111](https://github.com/user-attachments/assets/80650a01-4a63-4e75-b22f-5e36a0864577)
 
@@ -24,6 +26,8 @@ Une offre payante nommée « Plex Pass » est disponible et propose plus de mét
 ## 3 Page accueil Plex 
 
  ![Capture d'écran 2024-10-16 123348](https://github.com/user-attachments/assets/f0d2915e-a793-41a6-9ffd-d957b08699aa)
+
+ 
 
 
 
