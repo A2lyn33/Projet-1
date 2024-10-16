@@ -51,7 +51,6 @@
 * ##### On valide par Oui:
 ![image](https://github.com/user-attachments/assets/25bc4f95-8b45-4ca6-8590-6a07c2b646b4)
 
-* ##### L'instalation commence.
 * ##### Choisir Non : 
 * ![image](https://github.com/user-attachments/assets/fc043a54-5328-448a-92db-40ee1298303b)
 
