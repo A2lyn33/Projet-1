@@ -13,7 +13,7 @@
 ![image](https://belginux.com/content/images/2023/12/1.png)
 * ##### Sélectionner votre langue d'installation :
 
- ![image]()
+ ![image](https://belginux.com/content/images/size/w1600/2023/12/2.png)
 * ##### Sélectionnez les paramètres régionaux: 
 ![image](https://belginux.com/content/images/size/w1600/2023/12/3.png)
 * ##### On configure son clavier :
