@@ -12,7 +12,7 @@
 * ##### Une fois booté selectioné **Graphical install**:
 ![image](https://belginux.com/content/images/2023/12/1.png)
 * ##### Sélectionner votre langue d'installation :
-![image](https://belginux.com/content/images/size/w1600/2023/12/2.png)
+![image](https://github.com/user-attachments/assets/f6d1f54a-18e9-485e-b416-7fe373e221bc)
 * ##### Sélectionnez les paramètres régionaux: 
 ![image](https://belginux.com/content/images/size/w1600/2023/12/3.png)
 * ##### On configure son clavier :
