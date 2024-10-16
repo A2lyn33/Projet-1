@@ -57,5 +57,120 @@
 * ##### Selectioné le disque :
  ![image](https://belginux.com/content/images/size/w1600/2023/12/24.png)
 * ##### L'installation est terminée, retirez la clé USB du serveur et cliquez sur Continuer.
+###### Toutes les captures ci dessus proviennes de [Belinux](https://belginux.com/installer-facilement-son-serveur-sous-debian-12/#se-connecter-au-serveur)
+
 * ##### le serveur :
-* ![image](https://belginux.com/content/images/2023/12/26-1.png).
+ ![image](https://cdn.discordapp.com/attachments/1292773669319344168/1296057607701921843/Fichier_bien_dispo_sur_serveur_Debian_12.bmp?ex=6710e735&is=670f95b5&hm=18f876b18217cc9d6f03d543d5ffce2ff9d5a14777cfb004fd5228331972bfd2&).
+* #### **Configuration d'une IP fixe avec Débian 12:**
+  * ##### Ouvrez le terminal et exécutez
+````        
+        sudo nano/etc/network/interfaces
+````
+  * ##### Configurez l'IP :
+````        
+        auto eth0
+        idface eth0 inet static
+        address 172.16.10.10
+        netmask 255.255.255.0
+        gateway 172.16.10.1             ##### **A VERIFIER**
+        dns-nameservers 172.16.10.1
+```` 
+ * ##### Enregistrez et quitttez l'éditeur
+  * ##### Redemarrez le service
+````        
+        sudo systemct1 resart systemd-networkd
+````
+![image](https://cdn.discordapp.com/attachments/1292773669319344168/1296057608725332021/Configuration_IP_Serveur_Debian_12.bmp?ex=6710e735&is=670f95b5&hm=ccf08117afc7edb3fa2bf7eddfec59e882148198a1d9a931207a4d91d2e1a298&)
+
+### **Configuration et instalation du Protocole [NFS](https://fr.wikipedia.org/wiki/Network_File_System)**
+ #### **Instalation du paquet :**
+* ##### mettre à jour le cache des paquets:
+````
+      sudo apt-get update
+````
+* ##### Installer le paquet "nfs-kernel-server" :`
+ 
+`````
+sudo apt-get install nfs-kernel-server
+`````
+![image](https://www.it-connect.fr/wp-content-itc/uploads/2021/10/apt-get-install-nfs-server-debian.png)
+
+###### la capture provient de [it-connect](https://www.it-connect.fr/le-protocole-nfs-pour-les-debutants/)
+* ##### Configurer le démarrage automatique du service :
+````    
+   sudo systemctl enable nfs-server.service
+````
+ #### **Déclaration d'un partage NFS**
+
+* ##### Créer le répertoire à partager :
+````
+        mkdir /srv/partagenfs
+````
+* ##### Appliquer les permissions :
+````
+        chown nobody:nogroup /srv/partagenfs/
+        chmod 755 /srv/partagenfs/
+````
+
+* ##### Éditer le fichier de configuration /etc/exports :
+ ````       
+        sudo nano /etc/exports
+````
+* ##### Ajouter la ligne suivante :
+````
+        /srv/partagenfs 172.16.10.10/24(rw,sync,anonuid=65534,anongid=65534,no_subtree_check) 
+````
+![image](https://www.it-connect.fr/wp-content-itc/uploads/2021/10/serveur-nfs-exports-partage.png)
+###### la capture provient de [it-connect](https://www.it-connect.fr/le-protocole-nfs-pour-les-debutants/)
+
+* ##### Appliquer la configuration :
+````
+        exportfs -a
+````
+
+* ##### Vérifier les partages :
+````
+        showmount -e 172.16.10.10
+`````
+![image](https://www.it-connect.fr/wp-content-itc/uploads/2021/10/showmount-nfs-exemple.png)
+###### la capture provient de [it-connect](https://www.it-connect.fr/le-protocole-nfs-pour-les-debutants/)
+ #### **Connexion au partage NFS depuis un client Linux**
+
+* ##### Installer le paquet client NFS :
+````
+        sudo apt-get install nfs-common
+`````
+* ##### Créer un point de montage :
+````
+        mkdir /media/partagenfs
+````
+* ##### Monter le partage manuellement :
+````
+        mount -t nfs4 172.16.10.10:/srv/partagenfs /media/partagenfs/
+````
+* ##### Pour un montage automatique, éditer /etc/fstab :
+````
+        sudo nano /etc/fstab
+````
+* ##### Ajouter la ligne :
+````
+        172.16.10.10:/srv/partagenfs /media/partagenfs nfs4 defaults,user,exec 0 0 
+`````
+* ##### Monter tous les partages définis dans fstab :
+````
+         sudo mount -a
+````
+#### **Capture des paquets NFS avec TCPDUMP**
+
+* ##### Installer tcpdump :
+````
+        sudo apt-get install tcpdump
+````
+* ##### Lancer une capture sur les ports NFS :
+````
+        tcpdump port 2049 or port 111
+````
+* ##### Vérifier l'activité NFS depuis le client :
+````
+        ls /media/partagenfs
+`````
