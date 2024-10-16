@@ -14,52 +14,71 @@
 * ##### Sélectionner votre langue d'installation :
 ![image](https://github.com/user-attachments/assets/f6d1f54a-18e9-485e-b416-7fe373e221bc)
 * ##### Sélectionnez les paramètres régionaux: 
-![image](https://belginux.com/content/images/size/w1600/2023/12/3.png)
+![image](https://github.com/user-attachments/assets/e4db626b-091c-43a8-8022-0922618e7aab)
+
 * ##### On configure son clavier :
-![image ](https://belginux.com/content/images/size/w1600/2023/12/4.png)
+![image](https://github.com/user-attachments/assets/98d1c3ce-f205-4679-9101-3eb8e6e739fe)
+
 * ##### On donne un nom au serveur, peu importe:
 
- ![image](https://belginux.com/content/images/size/w1600/2023/12/5.png)
+ ![image](https://github.com/user-attachments/assets/caf811f2-d826-4296-a7eb-af99b59ac55d)
+
  
  * ##### Laissez vide ou mettez localdomain : 
- ![image](https://belginux.com/content/images/size/w1600/2023/12/6-1.png)
+ ![image](https://github.com/user-attachments/assets/019e42fd-7232-40a0-8823-ef308e0e1014)
+
 * ##### Choisissez un mot de passe fort pour le compte root, celui qui a tout les privilèges:
-![image](https://belginux.com/content/images/size/w1600/2023/12/7.png)
+![image](https://github.com/user-attachments/assets/b8ab1690-378b-49b7-a1c1-96ab8a0a8b14)
+
 * ##### Création du compte Utilisateur :
 ![image](https://belginux.com/content/images/size/w1600/2023/12/8-1.png)
 * ##### Création du Login :
  ![image](https://belginux.com/content/images/size/w1600/2023/12/9.png)
 * ##### Mot de passe compte :
-![image](https://belginux.com/content/images/size/w1600/2023/12/10.png)
+![image](https://github.com/user-attachments/assets/3b58db3b-b12c-4ab2-b2ae-70cf58661346)
+
 * ##### On choisi le mode de partitionnement, Assisté - utiliser un disque entier:
-![image](https://belginux.com/content/images/size/w1600/2023/12/11.png)
+![image](https://github.com/user-attachments/assets/5ff2ec5a-0b75-4d07-ae7c-b574d13635f9)
+
 * ##### On sélectionne le disque ou sera installé Debian 12 serveur:
 ![image](https://belginux.com/content/images/size/w1600/2023/12/12-2.png)
 * ##### On va choisir l'option Tout dans une seule partition:
-![image](https://belginux.com/content/images/size/w1600/2023/12/Screenshot_20231207_150135.png)
+![image](https://github.com/user-attachments/assets/fdf17647-034b-4f1c-8fae-59d85ea05fc2)
+
 * ##### Sélectionnez Terminer le partitionnement et appliquer les changements:
-![image](https://belginux.com/content/images/size/w1600/2023/12/14.png)
+![image](https://github.com/user-attachments/assets/30df086c-d6d6-4210-b456-61d1305f38df)
+
 * ##### On valide par Oui:
-![image](https://belginux.com/content/images/size/w1600/2023/12/15.png)
+![image](https://github.com/user-attachments/assets/25bc4f95-8b45-4ca6-8590-6a07c2b646b4)
+
 * ##### L'instalation commence.
 * ##### Choisir Non : 
-* ![image](https://belginux.com/content/images/size/w1600/2023/12/17.png)
+* ![image](https://github.com/user-attachments/assets/fc043a54-5328-448a-92db-40ee1298303b)
+
 * ##### Choisir un miroir correspondant généralement au pays ou l'on se trouve.
 * ##### Ici vous pouvez choisir deb.debian.org:
-![image](https://belginux.com/content/images/size/w1600/2023/12/19.png)
+![image](https://github.com/user-attachments/assets/e2ede3ce-1820-4c25-b14c-74dd373c15ff)
+
 * ##### On laisse vide et on continue
- ![image](https://belginux.com/content/images/size/w1600/2023/12/20.png)
+![image](https://github.com/user-attachments/assets/51fd8c3d-1291-48a6-ae87-9da885a981d2)
+
+
 *  ##### A vous de choisir.
 *  ##### Il ne faut pas d'environnement de bureau vu que l'on veut installer Debian 12 comme serveur, cochez et décochez suivant l'exemple. Nous avons besoin du SSH et on peut cocher les utilitaires usuels du système:
-  ![image](https://belginux.com/content/images/size/w1600/2023/12/22.png)
+  ![image](https://github.com/user-attachments/assets/7770ecc9-adcf-4744-a0e8-860a641efad8)
+
 * ##### On choisi d'installer [GRUB](https://fr.wikipedia.org/wiki/GNU_GRUB) sur le disque principal.
+* ![image](https://github.com/user-attachments/assets/3c8ff13f-137f-469e-9a69-9574cb300fc5)
+
 * ##### Selectioné le disque :
- ![image](https://belginux.com/content/images/size/w1600/2023/12/24.png)
+![image](https://github.com/user-attachments/assets/6cfa07f8-1909-488f-8318-0fbbab10d911)
+
 * ##### L'installation est terminée, retirez la clé USB du serveur et cliquez sur Continuer.
 ###### Toutes les captures ci dessus proviennes de [Belinux](https://belginux.com/installer-facilement-son-serveur-sous-debian-12/#se-connecter-au-serveur)
 
 * ##### le serveur :
- ![image](https://cdn.discordapp.com/attachments/1292773669319344168/1296057607701921843/Fichier_bien_dispo_sur_serveur_Debian_12.bmp?ex=6710e735&is=670f95b5&hm=18f876b18217cc9d6f03d543d5ffce2ff9d5a14777cfb004fd5228331972bfd2&).
+ ![image](https://github.com/user-attachments/assets/f1cd4f46-75e8-44ed-981f-6ef9632b4d9b)
+
 * #### **Configuration d'une IP fixe avec Débian 12:**
   * ##### Ouvrez le terminal et exécutez
 ````        
@@ -173,3 +192,4 @@ sudo apt-get install nfs-kernel-server
 ````
         ls /media/partagenfs
 `````
+
