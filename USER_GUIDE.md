@@ -27,6 +27,8 @@ Une offre payante nommée « Plex Pass » est disponible et propose plus de mét
 
 ## - 3 Page accueil Plex 
 
+Depuis cette page d'accueil , nous pouvons gérer nos musiques , films, nos bibiliothèques , voir quel 
+
  ![Capture d'écran 2024-10-16 123348](https://github.com/user-attachments/assets/f0d2915e-a793-41a6-9ffd-d957b08699aa)
 
  
