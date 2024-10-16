@@ -71,7 +71,7 @@
   ![image](https://github.com/user-attachments/assets/7770ecc9-adcf-4744-a0e8-860a641efad8)
 
 * ##### On choisi d'installer [GRUB](https://fr.wikipedia.org/wiki/GNU_GRUB) sur le disque principal.
-* ![image](https://github.com/user-attachments/assets/3c8ff13f-137f-469e-9a69-9574cb300fc5)
+ ![image](https://github.com/user-attachments/assets/3c8ff13f-137f-469e-9a69-9574cb300fc5)
 
 * ##### Selectioné le disque :
 ![image](https://github.com/user-attachments/assets/6cfa07f8-1909-488f-8318-0fbbab10d911)
