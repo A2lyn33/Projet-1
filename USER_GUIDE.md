@@ -19,7 +19,7 @@
   - soit en utilsant son compte utilisateur
   - soit en créant un compte et un mot de passe 
 
-![Capture d'écran 2024-10-16 123111](https://github.com/user-attachments/assets/80650a01-4a63-4e75-b22f-5e36a0864577){ width = 1 0; height = 10 }
+![Capture d'écran 2024-10-16 123111]{ width = 10; height = 10 }(https://github.com/user-attachments/assets/80650a01-4a63-4e75-b22f-5e36a0864577)
 
 Une offre payante nommée « Plex Pass » est disponible et propose plus de métadonnées sur la musique, la synchronisation hors ligne pour les appareils mobiles, le mode multi-utilisateurs, le contrôle parental, l'accès à des bandes-annonces en haute qualité ainsi qu'aux promotions des partenaires4. Cette offre est disponible en facturation mensuelle (à 4,99 €), annuelle (à 39,99 €) ou en une fois (à 119,99 €).
 
