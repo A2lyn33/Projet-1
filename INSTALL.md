@@ -10,7 +10,7 @@
   * ##### Choisissez votre version en 64 et 32 bits et cli
 * ##### Une fois l'ISO téléchargé il faudra une clé bootable, je vous renvoie à cette article [lecrabeinfo](https://lecrabeinfo.net/creer-cle-usb-installation-bootable-live-cd-linux-ubuntu-debian.html?ref=belginux.com)
 * ##### Une fois booté selectioné **Graphical install**:
-![image](<img> https://belginux.com/content/images/2023/12/1.png width="100" height="100">)
+![image](https://belginux.com/content/images/2023/12/1.png)
 * ##### Sélectionner votre langue d'installation :
 ![image](https://github.com/user-attachments/assets/f6d1f54a-18e9-485e-b416-7fe373e221bc)
 * ##### Sélectionnez les paramètres régionaux: 
