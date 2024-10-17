@@ -64,11 +64,9 @@ En choisissant un nouveau dossier
 
 Grace à la configuration des métadonnées , vous pouvez gérer de nombreux paramètres 
 
-![image](https://github.com/user-attachments/assets/36a6b3d5-b71d-4321-93a2-c780c1e147b6)
-
 ![image](https://github.com/user-attachments/assets/6bbb382c-6cca-4df7-8219-eeb26d5cee99)
 
-
+![image](https://github.com/user-attachments/assets/36a6b3d5-b71d-4321-93a2-c780c1e147b6)
 
 
  
