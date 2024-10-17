@@ -1,18 +1,18 @@
-## User-guide
+# User-guide
   - Documentation utilisateur
     - Utilisation de base : comment utiliser les fonctionnalités clés
     - Utilisation avancée : comment utiliser au mieux les options
     - FAQ : solutions aux problèmes connus et communs liés à l’utilisation
 
-## Utilisaion de plex 
+# Utilisaion de plex 
 ---
- ## - 1 Présentation de plex  
+# - 1 Présentation de plex  
 
 Plex est un logiciel client-serveur de gestion multimédia qui permet d'accéder à des films, séries, musiques et photos sur le serveur peu importe où le client se situe, s'il a une connexion Internet2. Il se décompose en deux parties :
     - Le serveur Plex, qui peut être installé sur Windows, MacOS, Linux, FreeBSD et sur des serveurs de stockage en réseau. C'est lui qui contient et organise les fichiers et qui va gérer les connexions des clients.
     - Le client qui reçoit le contenu du serveur par un navigateur web (via le site Internet) ou une application pour mobiles, télévisions ou les home cinemas.
 ---
-## - 2 Connection à plex 
+# - 2 Connection à plex 
 
  Pour se connecter à Plex , il suffit de lancer une page dans un navigateur web , puis de se connecter
   - soit en utilsant son compte utilisateur
@@ -25,7 +25,7 @@ Une offre payante nommée « Plex Pass » est disponible et propose plus de mét
 ![Capture d'écran 2024-10-16 140110](https://github.com/user-attachments/assets/9b1dcf8d-c575-43b0-bc57-fa60fd8045ef)
 
 ---
-## - 3 Page accueil Plex 
+# - 3 Page accueil Plex 
 
 Depuis cette page d'accueil , nous pouvons gérer nos musiques , films, nos bibiliothèques , voir quels films ou séries vous n'avez pas terminés et cela depuis tout nos appareils connectés à plex avec votre compte .
 
@@ -38,15 +38,17 @@ Depuis cette page d'accueil , nous pouvons gérer nos musiques , films, nos bibi
   - La gestion de vos bibliothèques
   - et de nombreuses autres fonctionnalités
 
-## - 4 Gestion des bibliothèques
+---
+
+# - 4 Gestion des bibliothèques
 
  Pour ajouter un film , une photo ou une musique , 
  
- # 1 - il suffit de transférer ou copier le fichier dans le partagenfs sur votre ordinateur 
+ ## 1 - il suffit de transférer ou copier le fichier dans le partagenfs sur votre ordinateur 
 
 ![image](https://github.com/user-attachments/assets/7be6ce75-46c6-430a-9f51-47dbb5e94ed7)
 
-# 2 - Dans l'application plex , il faut créer une nouvelle bibliothèque 
+ ## 2 - Dans l'application plex , il faut créer une nouvelle bibliothèque 
 
 ![image](https://github.com/user-attachments/assets/64b0a792-5c1d-4fbc-81b0-ce378d7f1320)
 
@@ -54,8 +56,17 @@ En choisissant un nouveau dossier
 
 ![image](https://github.com/user-attachments/assets/570b9cc5-e465-4efe-9489-6c8af413f5bc)
 
+---
 
-##
+# - 4 Métadonnées
+
+Grace à la configuration des métadonnées , vous pouvez gérer de nombreux paramètres 
+
+![image](https://github.com/user-attachments/assets/36a6b3d5-b71d-4321-93a2-c780c1e147b6)
+
+![image](https://github.com/user-attachments/assets/6bbb382c-6cca-4df7-8219-eeb26d5cee99)
+
+
 
 
 
