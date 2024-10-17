@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/e4db626b-091c-43a8-8022-0922618e7aab)
 
 * ##### On configure son clavier :
-![image](https://github.com/user-attachments/assets/98d1c3ce-f205-4679-9101-3eb8e6e739fe | width=100)
+![image](https://github.com/user-attachments/assets/98d1c3ce-f205-4679-9101-3eb8e6e739fe)
 
 * ##### On donne un nom au serveur, peu importe:
 
