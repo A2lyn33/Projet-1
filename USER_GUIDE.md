@@ -2,7 +2,7 @@
 
 # Utilisation de plex 
 ---
-# - 1 Présentation de plex  
+# - 1 Présentation de plex 
 
  Plex est un logiciel client-serveur de gestion multimédia qui permet d'accéder à des films, séries, musiques et photos sur le serveur peu importe où le client se situe, s'il a une connexion Internet2. Il se décompose en deux parties : 
  - Le serveur Plex, qui peut être installé sur Windows, MacOS, Linux, FreeBSD et sur des serveurs de stockage en réseau. C'est lui qui contient et organise les fichiers et qui va gérer les connexions des clients.
