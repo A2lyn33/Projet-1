@@ -64,7 +64,7 @@ En choisissant un nouveau dossier
 ![Capture d'écran 2024-10-17 104405](https://github.com/user-attachments/assets/04631bf4-9a1c-4d2e-bb31-6fb18f70b616)
 
 
-# - 4 Métadonnées
+# - 6 Métadonnées
 
 Grace à la configuration des métadonnées , vous pouvez gérer de nombreux paramètres 
 
