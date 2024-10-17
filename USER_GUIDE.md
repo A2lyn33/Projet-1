@@ -4,7 +4,7 @@
     - Utilisation avancée : comment utiliser au mieux les options
     - FAQ : solutions aux problèmes connus et communs liés à l’utilisation
 
-# Utilisaion de plex 
+# Utilisation de plex 
 ---
 # - 1 Présentation de plex  
 
