@@ -7,11 +7,11 @@
 
  #### **Installation et configuration du serveur débian 12 :**
 * ##### Commencer par télécharger [Débian 12](https://www.debian.org/distrib/?ref=belginux.com) .
-  * ##### Choisissez votre version en 64 et 32 bits et cli
+  * ##### Choisissez votre version en 64 et 32 bits 
 * ##### Une fois l'ISO téléchargé il faudra une clé bootable, je vous renvoie à cette article [lecrabeinfo](https://lecrabeinfo.net/creer-cle-usb-installation-bootable-live-cd-linux-ubuntu-debian.html?ref=belginux.com)
-* ##### Une fois booté selectioné **Graphical install**:
+* ##### Une fois booté sélectionnez **Graphical install**:
 ![image](https://belginux.com/content/images/2023/12/1.png)
-* ##### Sélectionner votre langue d'installation :
+* ##### Sélectionnez votre langue d'installation :
 ![image](https://github.com/user-attachments/assets/f6d1f54a-18e9-485e-b416-7fe373e221bc)
 * ##### Sélectionnez les paramètres régionaux: 
 ![image](https://github.com/user-attachments/assets/e4db626b-091c-43a8-8022-0922618e7aab)
@@ -40,7 +40,7 @@
 * ##### On choisi le mode de partitionnement, Assisté - utiliser un disque entier:
 ![image](https://github.com/user-attachments/assets/5ff2ec5a-0b75-4d07-ae7c-b574d13635f9)
 
-* ##### On sélectionne le disque ou sera installé Debian 12 serveur:
+* ##### On sélectionne le disque où sera installé Debian 12 serveur:
 ![image](https://belginux.com/content/images/size/w1600/2023/12/12-2.png)
 * ##### On va choisir l'option Tout dans une seule partition:
 ![image](https://github.com/user-attachments/assets/fdf17647-034b-4f1c-8fae-59d85ea05fc2)
@@ -73,7 +73,7 @@
 * ##### On choisi d'installer [GRUB](https://fr.wikipedia.org/wiki/GNU_GRUB) sur le disque principal.
  ![image](https://github.com/user-attachments/assets/3c8ff13f-137f-469e-9a69-9574cb300fc5)
 
-* ##### Selectioné le disque :
+* ##### Selectionnez le disque :
 ![image](https://github.com/user-attachments/assets/6cfa07f8-1909-488f-8318-0fbbab10d911)
 
 * ##### L'installation est terminée, retirez la clé USB du serveur et cliquez sur Continuer.
@@ -99,12 +99,12 @@
  * ##### Enregistrez et quitttez l'éditeur
   * ##### Redemarrez le service
 ````        
-        sudo systemct1 resart systemd-networkd
+        sudo systemct1 restart systemd-networkd
 ````
 ![image](https://cdn.discordapp.com/attachments/1292773669319344168/1296057608725332021/Configuration_IP_Serveur_Debian_12.bmp?ex=6710e735&is=670f95b5&hm=ccf08117afc7edb3fa2bf7eddfec59e882148198a1d9a931207a4d91d2e1a298&)
 
-### **Configuration et instalation du Protocole [NFS](https://fr.wikipedia.org/wiki/Network_File_System)**
- #### **Instalation du paquet :**
+### **Configuration et installation du Protocole [NFS](https://fr.wikipedia.org/wiki/Network_File_System)**
+ #### **Installation du paquet :**
 * ##### mettre à jour le cache des paquets:
 ````
       sudo apt-get update
