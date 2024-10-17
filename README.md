@@ -51,3 +51,4 @@
  
 * ### **Amélioration possible :**
    * ##### Amélioration de la sécurité sur le serveur
+   * ##### Mise en place d'un serveur de secours
