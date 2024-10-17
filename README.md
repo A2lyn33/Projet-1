@@ -28,24 +28,26 @@
  * ### **Choix Techniques :**
  
    ##### Pour répondre aux demande du sujet, ainsi qu'aux défis liés au projet voici les différent choix techniques:
-   * ##### Serveur Débian 12 avec VM
-   * ##### Clients Ubuntu **VERSION A DEFINIR** avec VM
-   * ##### NFS et SMB
-   * ##### PMS **VERSION A DEFINIR**
+* #####   **Serveur Debian 12 :**
+   * ##### **enp0s3 (NAT)** : Configurée en DHCP pour accéder à Internet.
+   * ##### **enp0s8 (Interne)** : IP statique `172.16.10.10`, pour la communication avec le client.-
+* ##### **Client Ubuntu :**
+   * #####  **enp0s3 (NAT)** : DHCP pour l'accès Internet.
+   * ##### **enp0s8 (Interne)** : IP statique `172.16.10.20`, pour se connecter au serveur.
+
   
 
 * ### **Difficultées rencontrées:**
-  * ##### Trouver les **ressources** pour répondre au **sujet**
-  * ##### Instalation et configuration du serveur **Débian**
-  * ##### Instalation et configuration du protocole **NFS**
-  * ##### Gestion des différentes **connections et cartes réseaux**
-  * ##### Configurations de **PMS**
+* #####   **Connexion Réseau** : Difficulté à établir une connexion simultanée au réseau local et à Internet.
+* ##### **Routage** : Mauvaise gestion du trafic entre les cartes réseau, empêchant la communication fluide.
+* #####  **Droits NFS** : Le client Ubuntu ne pouvait pas ajouter de fichiers sur le partage NFS du serveur, faute de permissions adéquates.
   
 * ### **Solutions trouvées :**
-  * ##### Pour de trouver des resources, pour pouvoir répondre aux sujet choisi nous avons du effectuer des recherche sur différents sites, forums,vidéos, afin d'en extraire les informations pour réaliser notre documentations et trouver des solutions aux problémes posés.
-  * ##### L'instalation du serveur Débian 12 nous a posée des probléme **.......A COMPLETER**
-  * ##### Linstalation du protocole NFS a posé probléme au niveau de **...... A COMPLETER**
-  * ##### La gestion des différentes connections et cartes réseaux à posé probléme **...... A COMPLETER**
-  * ##### La configuration de PMS **...... A COMPLETER**
- * ### **Amélioration possible :**
-   * ##### **...... A COMPLETER**
+ * ##### **Cartes Réseau** : Configuration identique sur les deux machines :
+  * ##### **enp0s3 (NAT)** pour Internet via DHCP.
+  * ##### **enp0s8 (Interne)** avec des IP statiques (`172.16.10.10` et `172.16.10.20`) pour la connexion locale.
+* ##### **Routage** : Routes statiques pour le réseau interne via `enp0s8` et passerelle par défaut sur `enp0s3` pour l'Internet.
+* ##### **Droits NFS** : Alignement des permissions utilisateur sur le serveur et le client, permettant aux deux machines de lire et écrire sur le partage NFS. Cela a permis au client de déposer des fichiers directement sur le serveur.
+ 
+* ### **Amélioration possible :**
+   * ##### Amélioration de la sécurité sur le serveur
