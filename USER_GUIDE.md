@@ -45,6 +45,8 @@ Depuis cette page d'accueil , nous pouvons gérer nos musiques , films, nos bibi
 
 ![image](https://github.com/user-attachments/assets/7be6ce75-46c6-430a-9f51-47dbb5e94ed7)
 
+![image](https://github.com/user-attachments/assets/0dc376bc-294e-4a3a-8062-18fde44853be)
+
  ## 2 - Dans l'application plex , il faut créer une nouvelle bibliothèque 
 
 ![image](https://github.com/user-attachments/assets/64b0a792-5c1d-4fbc-81b0-ce378d7f1320)
@@ -68,6 +70,9 @@ Grace à la configuration des métadonnées , vous pouvez gérer de nombreux par
 
 ![image](https://github.com/user-attachments/assets/36a6b3d5-b71d-4321-93a2-c780c1e147b6)
 
+![image](https://github.com/user-attachments/assets/7981ee64-8eac-4be7-966a-c88dcd66cd7e)
+
+![image](https://github.com/user-attachments/assets/4ab778b8-d464-4ff4-85ac-4fe40eac7864)
 
  
 
