@@ -5,8 +5,7 @@
 ## 3 Gestion des IP
 
 
- <span style="color:blue;">#### **Installation et configuration du serveur Debian 12 :**</span>
-
+ #### **Instalation et configuration du serveur débian 12 :**
 * ##### Commencer par télécharger [Débian 12](https://www.debian.org/distrib/?ref=belginux.com) .
   * ##### Choisissez votre version en 64 et 32 bits et cli
 * ##### Une fois l'ISO téléchargé il faudra une clé bootable, je vous renvoie à cette article [lecrabeinfo](https://lecrabeinfo.net/creer-cle-usb-installation-bootable-live-cd-linux-ubuntu-debian.html?ref=belginux.com)
