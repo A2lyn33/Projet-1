@@ -72,7 +72,6 @@ Grace à la configuration des métadonnées , vous pouvez gérer de nombreux par
 
 ![image](https://github.com/user-attachments/assets/6bbb382c-6cca-4df7-8219-eeb26d5cee99)
 
-\includegraphics[width=6cm]{./![image](https://github.com/user-attachments/assets/6bbb382c-6cca-4df7-8219-eeb26d5cee99)}
 
 
 
