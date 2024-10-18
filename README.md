@@ -1,7 +1,7 @@
 # **Documentation Générale:**
 
 * # **SOMMAIRE:**
-  * ##### [résentation du projet et objectifs finaux](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#pr%C3%A9sentation-du-projet-et-objectifs-finaux-)
+  * ##### [Présentation du projet et objectifs finaux](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#pr%C3%A9sentation-du-projet-et-objectifs-finaux-)
   * ##### [Introduction](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#introduction-)
   * ##### [Choix techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#choix-techniques-)
   * ##### [Difficultées rencontrées](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/FINAL%20DOCUMENTATION%20GENERALE.md#difficult%C3%A9es-rencontr%C3%A9es-1)
