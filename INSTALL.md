@@ -1,8 +1,8 @@
 # **Documentation Administrateur:**
 
-## [1 Installation et configuration du serveur débian 12](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/update%20INSTALL.md#installation-et-configuration-du-serveur-d%C3%A9bian-12-)
-## [2 installation et configuration du protocole NFS](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/update%20INSTALL.md#configuration-et-installation-du-protocole-nfs)
-## [3 Instalation de PMS sur serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/update%20INSTALL.md#instaltion-de-pms-sur-le-serveur-)
+## [1 Installation et configuration du serveur débian 12](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/INSTALL.md#installation-et-configuration-du-serveur-d%C3%A9bian-12-)
+## [2 installation et configuration du protocole NFS](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/INSTALL.md#configuration-et-installation-du-protocole-nfs)
+## [3 Instalation de PMS sur serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/INSTALL.md#instaltion-de-pms-sur-le-serveur-)
 
 
  #### **Installation et configuration du serveur débian 12 :**
