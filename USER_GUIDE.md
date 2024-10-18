@@ -55,7 +55,8 @@ En choisissant un nouveau dossier (notamment l'emplacement du dossier partagenfs
 
 ![image](https://github.com/user-attachments/assets/0dc376bc-294e-4a3a-8062-18fde44853be)
 
-- Puis le fichier sera détecté automatiquement par Plex.
+ Puis le fichier sera détecté automatiquement par Plex.
+
 ---
 
 # - 5 Gestion avancée des bibliothèques 
