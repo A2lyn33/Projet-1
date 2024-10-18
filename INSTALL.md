@@ -224,7 +224,7 @@ sudo apt-get install nfs-kernel-server
 ````
         chmod 777 /srv/partagenfs
 ````
- chmod 777 /srv/partagenfs
-````
+
 * ##### Vérification du bon fontionnement de PMS:
-![image](https://cdn.discordapp.com/attachments/1292773669319344168/1296057609392230400/Verification_de_la_mise_en_marche_PLEX.bmp?ex=67118ff5&is=67103e75&hm=51a021947eb8144f9fb116b587130b2bd4476c98356c4e5bf0e21f391a88bb91&)
+````![image](https://cdn.discordapp.com/attachments/1292773669319344168/1296057609392230400/Verification_de_la_mise_en_marche_PLEX.bmp?ex=67138a35&is=671238b5&hm=fee72f48a07639989e092bcd198d4c4dd18cd8097afc5a521a987e8942567519&)`
+````
