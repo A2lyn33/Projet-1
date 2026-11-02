@@ -1,54 +1,58 @@
-# **Documentation Générale:**
+# Serveur multimédia sous Debian
+**Projet collectif de formation · Wild Code School · 2024**
 
-* # **SOMMAIRE:**
-* ##### [Présentation du projet et objectifs finaux](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/README.md#pr%C3%A9sentation-du-projet-et-objectifs-finaux-)
-* ##### [Introduction](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/README.md#introduction-)
-* ##### [Choix techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/README.md#choix-techniques-)
-* ##### [Difficultées rencontrées](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/README.md#difficult%C3%A9es-rencontr%C3%A9es-1)
-* ##### [Solutions trouvées](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/README.md#solutions-trouv%C3%A9es-)
-* ##### [Amélioration possible](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia/blob/main/README.md#am%C3%A9lioration-possible-)
-* ### **Présentation du projet et objectifs finaux :**
+Mettre à disposition des contenus multimédias depuis un serveur Debian 12, avec Plex Media Server et des clients Windows et Ubuntu.
 
-* ##### Ce **projet** à pour but la mise en place d'un **serveur** (_débian12_) mutimédia, avec l'utilsation de **PMS** comme interface graphique ainsi que de la gestion des option. Ce serveur doit être **utilisable par tous les OS**.
-* ##### Les **objectifs** sont l'instalation du serveur **Débian 12**, **la recherche de solution** pour le partage de fichiers multimédias, **configurations** de différents **OS**,installations et configuration de **PMS**, et pour finir une **utilisations simple** du logiciel PMS pour le **transfert**, le **visionnage** et le **partage** de fichier multimedias.
-* ### **Introduction :**
-* ##### Nous avons décider de nous **diviser les taches**, pour nous permettre de menner à bien ce projet, les prochains points de la présentation sont les différents **membre du projet**, ainsi que leurs **rôles** sur les deux sprints. 
-* ##### **Adeline**:
-  *  ##### **Sprint 1** : Recherche des informations et installation serveur débian, et cliens Windows        
-  * ##### **Sprint 2** : PO Installations Protocole NFS et SMB, Réalisation de la slide pour presentation finale. 
-* ##### **Julien:** 
-  * ##### **Sprint 1** : recherche des informations protocole NFS et instalation, installation serveur Débian, et client Ubuntu. 
-  * ##### **Sprint 2**: SM Installations Protocole NFS et SMB, configuration bibliothéque et métadonnées.
-* ##### **Bruno:** 
-  * ##### **Sprint 1** : 1PO Rédaction de toute la documentation, Utilisateur, Install,Doc Générale
-  * ##### **Sprint 2** : installations Protocole NFS et SMB
-* ##### **Martin:** 
-  * ##### **Sprint 1** :  SM Recherche installation et paramétrage Plex, gestion des bibliothèque et métadonnées. 
-  * ##### **Sprint 2** : recherche pour l'équipe, et rédaction de la documentation .
-* ### **Choix Techniques :**
- 
-##### Pour répondre aux demandes du sujet, ainsi qu'aux défis liés au projet voici les différents choix techniques :
-* #####   **Serveur Debian 12 :**
-  * ##### **enp0s3 (NAT)** : configurée en DHCP pour accéder à Internet.
-  * ##### **enp0s8 (Interne)** : IP statique `172.16.10.10`, pour la communication avec le client.-
-* ##### **Client Ubuntu :**
-  * #####  **enp0s3 (NAT)** : DHCP pour l'accès Internet.
-  * ##### **enp0s8 (Interne)** : IP statique `172.16.10.20`, pour se connecter au serveur.
+## Ma contribution — Adeline
 
-  
+- **Sprint 1 :** recherche d'informations, installation du serveur Debian et du client Windows.
+- **Sprint 2 :** rôle de Product Owner, participation à l'installation des protocoles NFS et SMB, réalisation du support de présentation finale.
 
-* ### **Difficultées rencontrées:**
-* #####   **Connexion Réseau** : difficulté à établir une connexion simultanée au réseau local et à Internet.
-* ##### **Routage** : Mauvaise gestion du trafic entre les cartes réseau, empêchant la communication fluide.
-* #####  **Droits NFS** : Le client Ubuntu ne pouvait pas ajouter de fichiers sur le partage NFS du serveur, faute de permissions adéquates.
-  
-* ### **Solutions trouvées :**
-* ##### **Cartes Réseau** : configuration identique sur les deux machines :
-* ##### **enp0s3 (NAT)** pour Internet via DHCP.
-* ##### **enp0s8 (Interne)** avec des IP statiques (`172.16.10.10` et `172.16.10.20`) pour la connexion locale.
-* ##### **Routage** : Routes statiques pour le réseau interne via `enp0s8` et passerelle par défaut sur `enp0s3` pour l'Internet.
-* ##### **Droits NFS** : alignement des permissions utilisateur sur le serveur et le client, permettant aux deux machines de lire et écrire sur le partage NFS. Cela a permis au client de déposer des fichiers directement sur le serveur.
- 
-* ### **Amélioration possible :**
-* ##### Amélioration de la sécurité sur le serveur
-* ##### Mise en place d'un serveur de secours
+Ces contributions reprennent la répartition consignée dans la documentation d'origine. Le résultat présenté est un travail d'équipe.
+
+## Environnement et choix techniques
+
+| Élément | Configuration documentée |
+| --- | --- |
+| Serveur | Debian 12, Plex Media Server |
+| Clients | Windows et Ubuntu |
+| Accès Internet | Interface NAT, adresse obtenue par DHCP |
+| Réseau interne du serveur | `enp0s8`, adresse `172.16.10.10` |
+| Réseau interne du client Ubuntu | `enp0s8`, adresse `172.16.10.20` |
+| Partages étudiés | NFS et SMB |
+
+Les adresses appartiennent au laboratoire de formation. Elles doivent être adaptées à un autre environnement.
+
+## Difficultés et solutions consignées
+
+| Difficulté | Solution documentée par l'équipe |
+| --- | --- |
+| Accès au réseau local et à Internet | Séparation des interfaces : NAT pour Internet et réseau interne pour les échanges entre machines. |
+| Routage entre interfaces | Vérification des routes du réseau interne et de la passerelle utilisée pour Internet. |
+| Écriture impossible sur le partage NFS | Alignement des permissions utilisateur côté serveur et côté client. La documentation rapporte ensuite un dépôt de fichiers fonctionnel depuis le client. |
+
+## Documentation
+
+- [Installation et administration](INSTALL.md)
+- [Guide utilisateur Plex](USER_GUIDE.md)
+- [Dépôt collectif d'origine](https://github.com/WildCodeSchool/TSSR-2409-P1-G4-Serveur-de-contenus-multimedia)
+- [Brouillons et supports de travail historiques](Poubelle/)
+
+Les documents d'installation et leurs captures correspondent au contexte de 2024. Ils comprennent des ressources externes citées ; toutes les images ne sont pas des captures personnelles.
+
+## Équipe
+
+| Membre | Rôles et contributions documentés |
+| --- | --- |
+| Adeline | Debian, client Windows, NFS/SMB, Product Owner au sprint 2, présentation finale |
+| Julien | Debian, client Ubuntu, NFS/SMB, bibliothèques et métadonnées, Scrum Master au sprint 2 |
+| Bruno | Documentation générale, installation et utilisation ; NFS/SMB ; Product Owner au sprint 1 |
+| Martin | Plex, bibliothèques et métadonnées, recherche et documentation ; Scrum Master au sprint 1 |
+
+## Limites et suite possible
+
+La présentation a été relue en novembre 2026 ; l'environnement complet n'a pas été redéployé à cette occasion.
+
+Pour une nouvelle démonstration : joindre les versions exactes, un schéma, un test d'accès depuis chaque client et des captures personnelles. Les améliorations envisagées dans le projet initial étaient le renforcement de la sécurité et un serveur de secours.
+
+[Retour au portfolio](https://github.com/A2lyn33)
